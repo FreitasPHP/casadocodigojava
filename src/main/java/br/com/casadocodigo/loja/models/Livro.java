@@ -41,7 +41,7 @@ public class Livro {
 	private BigDecimal preco;
 	
 	@Temporal(TemporalType.DATE)
-	private Calendar dataPublicacao = Calendar.getInstance();
+	private Calendar dataPublicacao;
 	
 	@Min(50)
 	private Integer numeroPaginas;
